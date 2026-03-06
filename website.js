@@ -10,7 +10,7 @@ document.querySelector('#box2').addEventListener('click', function() {
     document.querySelector('#box1').innerHTML = "<h2>welkom wereld hallo mars.</h2>";
     console.log("Ooooh je mag niet klikken!")});
 
-let gebruiker={
+let gebruiker= {
     "naam": "manoa",
     "leeftijd": 17,
     "hobbys": [
@@ -18,9 +18,8 @@ let gebruiker={
         "slapen",
         "eten"
     ],
-    "blijft laat op maar houdt wel van slaap": true,
-
-
+    "blijft laat op maar houdt wel van slapen": true,
 }
+
 document.querySelector('#box3').innerHTML = "<h2>burh</h2>"
     console.log(gebruiker["naam"]);
